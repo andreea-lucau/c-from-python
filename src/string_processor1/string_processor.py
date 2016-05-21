@@ -45,12 +45,3 @@ def count_vowels(word):
 
     # Call the function from the library
     return _libstringprocessor.count_vowels(c_word, c_len)
-
-
-def main():
-    test_word = 'testword'
-    print '"%s" has %d vowels' % (test_word, count_vowels(test_word))
-
-
-if __name__ == "__main__":
-    main()
